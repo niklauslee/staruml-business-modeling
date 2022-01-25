@@ -20,6 +20,10 @@ function getStereotype (name) {
   return app.repository.find(e => e.name === name && e instanceof type.UMLStereotype)
 }
 
+function handleNewFromTemplate (template) {
+  return app.commands.execute('uml:new-from-template', template, __dirname)
+}
+
 function handleAddElement (options) {
   let stereotype = getStereotype(options.stereotype)
   if (!stereotype) {
@@ -46,5 +50,6 @@ function handleApplyBusinessModelingProfile () {
   }
 }
 
+app.commands.register('bm:new-from-template', handleNewFromTemplate)
 app.commands.register('bm:add-element', handleAddElement)
 app.commands.register('bm:apply-profile.business-modeling', handleApplyBusinessModelingProfile)

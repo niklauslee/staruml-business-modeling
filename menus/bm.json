@@ -1,6 +1,12 @@
 {
   "menu": [
     {
+      "id": "file.new-from-template",
+      "submenu": [
+        { "label": "Business Modeling", "command": "bm:new-from-template", "command-arg": "templates/BusinessModeling.mdj" }
+      ]
+    },
+    {
       "id": "uml.apply-profile",
       "submenu": [
         { "label": "Business Modeling Profile", "id": "bm.apply-profile.business-modeling", "command": "bm:apply-profile.business-modeling" }
