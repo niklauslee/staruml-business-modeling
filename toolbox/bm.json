@@ -1,0 +1,159 @@
+[
+  {
+    "label": "Business Use Cases",
+    "id": "bm-business-usecase",
+    "diagram-types": [ "UMLUseCaseDiagram", "UMLClassDiagram", "UMLPackageDiagram" ],
+    "items": [
+      {
+        "label": "Business Use Case Model",
+        "id": "BusinessUseCaseModel",
+        "icon": "icon-UMLModel",
+        "rubberband": "rect",
+        "command": "bm:add-element",
+        "command-arg": {
+          "id": "UMLModel",
+          "stereotype": "Business Use Case Model"
+        }
+      },
+      {
+        "label": "Business Use Case",
+        "id": "BusinessUseCase",
+        "icon": "icon-UMLUseCase",
+        "rubberband": "rect",
+        "command": "bm:add-element",
+        "command-arg": {
+          "id": "UMLUseCase",
+          "stereotype": "Business Use Case"
+        }
+      },
+      {
+        "label": "Business Actor",
+        "id": "BusinessActor",
+        "icon": "icon-UMLActor",
+        "rubberband": "rect",
+        "command": "bm:add-element",
+        "command-arg": {
+          "id": "UMLActor",
+          "stereotype": "Business Actor"
+        }
+      },
+      {
+        "label": "Business Goal",
+        "id": "BusinessGoal",
+        "icon": "icon-UMLClass",
+        "rubberband": "rect",
+        "command": "bm:add-element",
+        "command-arg": {
+          "id": "UMLClass",
+          "stereotype": "Business Goal"
+        }
+      },
+      {
+        "label": "Supports",
+        "id": "Supports",
+        "icon": "icon-UMLDependency",
+        "rubberband": "line",
+        "command": "bm:add-element",
+        "command-arg": {
+          "id": "UMLDependency",
+          "stereotype": "supports"
+        }
+      }
+    ]
+  },
+  {
+    "label": "Business Analysis",
+    "id": "bm-business-analysis",
+    "diagram-types": [ "UMLClassDiagram", "UMLPackageDiagram" ],
+    "items": [
+      {
+        "label": "Business Analysis Model",
+        "id": "BusinessAnalysisModel",
+        "icon": "icon-UMLModel",
+        "rubberband": "rect",
+        "command": "bm:add-element",
+        "command-arg": {
+          "id": "UMLModel",
+          "stereotype": "Business Analysis Model"
+        }
+      },
+      {
+        "label": "Business System",
+        "id": "BusinessSystem",
+        "icon": "icon-UMLPackage",
+        "rubberband": "rect",
+        "command": "bm:add-element",
+        "command-arg": {
+          "id": "UMLPackage",
+          "stereotype": "Business System"
+        }
+      },
+      {
+        "label": "Business Use Case Realization",
+        "id": "BusinessUseCaseRealization",
+        "icon": "icon-UMLCollaboration",
+        "rubberband": "rect",
+        "command": "bm:add-element",
+        "command-arg": {
+          "id": "UMLCollaboration",
+          "stereotype": "Business Use Case Realization"
+        }
+      },
+      {
+        "label": "Business Worker",
+        "id": "BusinessWorker",
+        "icon": "icon-UMLClass",
+        "rubberband": "rect",
+        "command": "bm:add-element",
+        "command-arg": {
+          "id": "UMLClass",
+          "stereotype": "Business Worker"
+        }
+      },
+      {
+        "label": "Case Worker",
+        "id": "CaseWorker",
+        "icon": "icon-UMLClass",
+        "rubberband": "rect",
+        "command": "bm:add-element",
+        "command-arg": {
+          "id": "UMLClass",
+          "stereotype": "Case Worker"
+        }
+      },
+      {
+        "label": "Business Entity",
+        "id": "BusinessEntity",
+        "icon": "icon-UMLClass",
+        "rubberband": "rect",
+        "command": "bm:add-element",
+        "command-arg": {
+          "id": "UMLClass",
+          "stereotype": "Business Entity"
+        }
+      },
+      {
+        "label": "Business Event",
+        "id": "BusinessEvent",
+        "icon": "icon-UMLSignal",
+        "rubberband": "rect",
+        "command": "bm:add-element",
+        "command-arg": {
+          "id": "UMLSignal",
+          "stereotype": "Business Event"
+        }
+      },
+      {
+        "label": "Owner",
+        "id": "Owner",
+        "icon": "icon-UMLDependency",
+        "rubberband": "line",
+        "command": "bm:add-element",
+        "command-arg": {
+          "id": "UMLDependency",
+          "stereotype": "owner"
+        }
+      }
+    ]
+  }
+]

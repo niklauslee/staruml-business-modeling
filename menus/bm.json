@@ -1,0 +1,17 @@
+{
+  "menu": [
+    {
+      "id": "uml.apply-profile",
+      "submenu": [
+        { "label": "Business Modeling Profile", "id": "bm.apply-profile.business-modeling", "command": "bm:apply-profile.business-modeling" }
+      ]
+    },
+    {
+      "id": "model.add",
+      "submenu": [
+        { "label": "Business Use Case Model", "id": "bm.business-usecase-model", "command": "factory:create-model" },
+        { "label": "Business Analysis Model", "id": "bm.business-analysis-model", "command": "factory:create-model" }
+      ]
+    }
+  ]
+}
