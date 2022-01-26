@@ -35,7 +35,7 @@ function handleAddElement (options) {
       'stereotype': stereotype
     },
     'view-init': {
-      'stereotypeDisplay': 'icon-label',
+      'stereotypeDisplay': 'icon',
       'suppressAttributes': true,
       'suppressOperations': true
     }

@@ -5,7 +5,7 @@
     "diagram-types": [ "UMLUseCaseDiagram", "UMLClassDiagram", "UMLPackageDiagram" ],
     "items": [
       {
-        "label": "Business Use Case Model",
+        "label": "«Business Use Case Model»",
         "id": "BusinessUseCaseModel",
         "icon": "icon-UMLModel",
         "rubberband": "rect",
@@ -16,7 +16,7 @@
         }
       },
       {
-        "label": "Business Use Case",
+        "label": "«Business Use Case»",
         "id": "BusinessUseCase",
         "icon": "icon-UMLUseCase",
         "rubberband": "rect",
@@ -27,7 +27,7 @@
         }
       },
       {
-        "label": "Business Actor",
+        "label": "«Business Actor»",
         "id": "BusinessActor",
         "icon": "icon-UMLActor",
         "rubberband": "rect",
@@ -38,7 +38,7 @@
         }
       },
       {
-        "label": "Business Goal",
+        "label": "«Business Goal»",
         "id": "BusinessGoal",
         "icon": "icon-UMLClass",
         "rubberband": "rect",
@@ -49,7 +49,7 @@
         }
       },
       {
-        "label": "Supports",
+        "label": "«supports»",
         "id": "Supports",
         "icon": "icon-UMLDependency",
         "rubberband": "line",
@@ -67,7 +67,7 @@
     "diagram-types": [ "UMLClassDiagram", "UMLPackageDiagram" ],
     "items": [
       {
-        "label": "Business Analysis Model",
+        "label": "«Business Analysis Model»",
         "id": "BusinessAnalysisModel",
         "icon": "icon-UMLModel",
         "rubberband": "rect",
@@ -78,7 +78,7 @@
         }
       },
       {
-        "label": "Business System",
+        "label": "«Business System»",
         "id": "BusinessSystem",
         "icon": "icon-UMLPackage",
         "rubberband": "rect",
@@ -89,7 +89,7 @@
         }
       },
       {
-        "label": "Business Use Case Realization",
+        "label": "«Business Use Case Realization»",
         "id": "BusinessUseCaseRealization",
         "icon": "icon-UMLCollaboration",
         "rubberband": "rect",
@@ -100,7 +100,7 @@
         }
       },
       {
-        "label": "Business Worker",
+        "label": "«Business Worker»",
         "id": "BusinessWorker",
         "icon": "icon-UMLClass",
         "rubberband": "rect",
@@ -111,7 +111,7 @@
         }
       },
       {
-        "label": "Case Worker",
+        "label": "«Case Worker»",
         "id": "CaseWorker",
         "icon": "icon-UMLClass",
         "rubberband": "rect",
@@ -122,7 +122,7 @@
         }
       },
       {
-        "label": "Business Entity",
+        "label": "«Business Entity»",
         "id": "BusinessEntity",
         "icon": "icon-UMLClass",
         "rubberband": "rect",
@@ -133,7 +133,7 @@
         }
       },
       {
-        "label": "Business Event",
+        "label": "«Business Event»",
         "id": "BusinessEvent",
         "icon": "icon-UMLSignal",
         "rubberband": "rect",
@@ -144,7 +144,7 @@
         }
       },
       {
-        "label": "Owner",
+        "label": "«owner»",
         "id": "Owner",
         "icon": "icon-UMLDependency",
         "rubberband": "line",
