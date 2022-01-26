@@ -2,7 +2,7 @@ UML Profile for Business Modeling
 =================================
 
 A StarUML (__v5.x or higher__) extension for Business Modeling. It includes:
-- UML Profile for Business Modeling (based on IBM Rational's definition)
+- UML Profile for Business Modeling (based on [IBM Rational's definition](http://deg.egov.bg/LP/extend.bus_model/guidances/whitepapers/resources/bmprofile.pdf))
 - Template (Business Modeling)
 - Toolbox (Business Use Cases and Business Analysis)
 
