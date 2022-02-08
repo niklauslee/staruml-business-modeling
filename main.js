@@ -21,4 +21,4 @@
  *
  */
 
-require('./bm-commands')
+require('./commands')
